@@ -1,0 +1,11 @@
+.pagination li {
+    color: #fff;
+    float: left;
+    padding: 8px 16px;
+    list-style: none;
+    cursor: pointer;
+  }
+  .pagination li.active {
+    background-color: #4CAF50;
+    color: white;
+  }

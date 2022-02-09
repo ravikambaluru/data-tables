@@ -1,0 +1,72 @@
+/* You can add global styles to this file, and also import other style files */
+body{
+    background-color: #000;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.bg-darkGray{
+    background-color: #191a19;
+}
+
+.bi{
+    font-size: 30px;
+}
+.py-2{
+    padding:1rem 0rem;
+}
+
+.bg-dark{
+    background-color: #000;
+}
+.container {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+} 
+.container-fluid{
+    max-width: 100%;
+    margin: 0px;
+}
+@media (min-width: 576px) {
+    .container {
+        width: 540px;
+    }
+}
+@media (min-width: 768px) {
+    .container {
+        width: 720px;
+    }
+}
+@media (min-width: 992px) {
+    .container {
+        width: 960px;
+    }
+}
+@media (min-width: 1200px) {
+    .container {
+        width: 1100px;
+    }
+}
+@media (min-width: 1400px) {
+    .container {
+        width: 1300px;
+    }
+}
+
+.d-flex{
+    display: flex;
+}
+
+.justify-content-between{
+    justify-content:space-between;
+}
+
+.align-items-center{
+    align-items: center;
+}
+
+.text-white{
+    color: #fff;
+}
